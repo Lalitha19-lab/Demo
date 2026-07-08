@@ -1,0 +1,9 @@
+---
+- name: Demo Playbook
+  hosts: all
+  gather_facts: yes
+ 
+  tasks:
+    - name: Print Bye
+      debug:
+        msg: "Bye from Ansible!"
