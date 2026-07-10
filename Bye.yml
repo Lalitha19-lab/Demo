@@ -5,5 +5,5 @@
  
   tasks:
     - name: Print Bye
-      debug:
+     debug:
         msg: "Bye from Ansible!"
